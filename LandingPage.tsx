@@ -1,16 +1,16 @@
 import { useState, type RefObject } from 'react';
 import { ArrowRight, CheckCircle2, ExternalLink, FileText, Loader2, ShieldCheck } from 'lucide-react';
-import heroShowroomImg from '../assets/images/hero_dealership_showroom_1794791317614.jpg';
-import usedCarGuideCoverImg from '../assets/images/used_car_guide_cover_1794791318613.jpg';
-import vehicleInspectionBayImg from '../assets/images/vehicle_inspection_bay_1794791318890.jpg';
+import heroShowroomImg from './hero_dealership_showroom_1794791317614.jpg';
+import usedCarGuideCoverImg from './used_car_guide_cover_1794791318613.jpg';
+import vehicleInspectionBayImg from './vehicle_inspection_bay_1794791318890.jpg';
 import {
   GUIDE_BENEFITS,
   GUIDE_HIGHLIGHTS,
   PUBLISHED_GOOGLE_FORM_EMBED_URL,
   PUBLISHED_GOOGLE_FORM_VIEW_URL,
-} from '../data/guideContent';
-import type { FunnelConfig } from '../types/funnel';
-import { ResilientImage } from '../components/ResilientImage';
+} from './guideContent';
+import type { FunnelConfig } from './funnel';
+import { ResilientImage } from './ResilientImage';
 
 interface LandingPageProps {
   config: FunnelConfig;
