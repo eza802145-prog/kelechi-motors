@@ -1,13 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
-import { TopBar } from './components/TopBar';
+import { TopBar } from './TopBar';
 import {
   PUBLISHED_GOOGLE_FORM_EMBED_URL,
   PUBLISHED_GOOGLE_FORM_VIEW_URL,
-} from './data/guideContent';
-import { LandingPage } from './pages/LandingPage';
-import { ThankYouPage } from './pages/ThankYouPage';
-import type { FunnelConfig } from './types/funnel';
-import { downloadUsedCarGuidePdf } from './utils/generateGuidePdf';
+} from './guideContent';
+import { LandingPage } from './LandingPage';
+import { ThankYouPage } from './ThankYouPage';
+import type { FunnelConfig } from './funnel';
+import { downloadUsedCarGuidePdf } from './generateGuidePdf';
 
 const DEFAULT_CONFIG: FunnelConfig = {
   whatsappNumber: '2348060677222',
