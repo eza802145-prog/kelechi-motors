@@ -6,17 +6,17 @@ import {
   Loader2,
   MessageCircle,
 } from 'lucide-react';
-import usedCarGuideCoverImg from '../assets/images/used_car_guide_cover_1794791318613.jpg';
-import { ResilientImage } from '../components/ResilientImage';
+import usedCarGuideCoverImg from './used_car_guide_cover_1794791318613.jpg';
+import { ResilientImage } from './ResilientImage';
 import {
   DEMO_WHATSAPP_NUMBER,
   WHATSAPP_PREFILL_MESSAGE,
-} from '../data/guideContent';
-import type { FunnelConfig } from '../types/funnel';
+} from './guideContent';
+import type { FunnelConfig } from './funnel';
 import {
   downloadUsedCarGuidePdf,
   GENERATED_PDF_FILENAME,
-} from '../utils/generateGuidePdf';
+} from './generateGuidePdf';
 
 interface ThankYouPageProps {
   config: FunnelConfig;
